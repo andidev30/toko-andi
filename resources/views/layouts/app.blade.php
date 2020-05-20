@@ -40,9 +40,9 @@
 <body>
     <nav class="navbar navbar-expand p-0">
         <a class="navbar-brand text-center col-xs-12 col-md-3 col-lg-2 mr-0" href="index.html"> Toko Andi <i class="fa fa-android" aria-hidden="true"></i> </a>
-        <button class="btn btn-link d-block d-md-none" data- toggle="collapse" data-target="#sidebar-nav" role="button">
+        <!-- <button class="btn btn-link d-block d-md-none" data- toggle="collapse" data-target="#sidebar-nav" role="button">
             <span class="oi oi-menu"></span>
-        </button>
+        </button> -->
     </nav>
     <div class="container-fluid h-100 p-0">
         <div style="min-height: 100%" class="flex-row d-flex align-items-stretch m-0">
