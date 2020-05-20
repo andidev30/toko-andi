@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Larashop @yield("title")</title>
+    <title>Toko Andi @yield("title")</title>
     <link rel="stylesheet" href="{{ asset('polished/polished.min.css') }}">
     <link rel="stylesheet" href="{{ asset('polished/iconic/css/open-iconic-bootstrap.min.css') }}">
     <style>
@@ -34,7 +34,6 @@
         document.documentElement.className =
             document.documentElement.className.replace('no-js', 'js') +
             (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? ' svg' : ' no-svg');
-
     </script>
 </head>
 
