@@ -34,7 +34,9 @@
     <script type="text/javascript">
         document.documentElement.className =
             document.documentElement.className.replace('no-js', 'js') +
-            (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? ' svg' : ' no-svg');
+            (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1") ? ' svg' :
+                ' no-svg');
+
     </script>
 </head>
 
@@ -75,6 +77,11 @@
                         <a href="/home"><span class="oi oi-home"></span>
                             Home
                         </a>
+                    <li>
+                        <a href="{{route('users.index')}}">
+                            <span class="oi oi-people"></span> Manage Users
+                        </a>
+                    </li>
                     </li>
                     <div class="d-block d-md-none">
                         <div class="dropdown-divider"></div>
