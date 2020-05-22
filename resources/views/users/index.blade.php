@@ -51,7 +51,7 @@
             <td>{{$user->email}}</td>
             <td>
                 @if($user->avatar)
-                <img src="{{ asset('storage/'.$user->avatar) }}" width="70px" />
+                <img src="{{ asset('public/storage/'.$user->avatar) }}" width="70px" />
                 @else
                 N/A
                 @endif
