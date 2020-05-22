@@ -31,11 +31,11 @@
         <br><br>
         <label for="">Roles</label>
         <br>
-        <input type="checkbox" {{in_array("ADMIN", json_decode($user->roles)) ? "checked" : ""}} name="roles[]" id="ADMIN" value="ADMIN">
+        <input type="checkbox" name="roles[]" id="ADMIN" value="ADMIN" {{ in_array("ADMIN", json_decode($user->roles)) ? "checked" : ""}}>
         <label for="ADMIN">Administrator</label>
-        <input type="checkbox" {{in_array("STAFF", json_decode($user->roles)) ? "checked" : ""}} name="roles[]" id="STAFF" value="STAFF">
+        <input type="checkbox"  name="roles[]" id="STAFF" value="STAFF" {{in_array("STAFF", json_decode($user->roles)) ? "checked" : ""}}>
         <label for="STAFF">Staff</label>
-        <input type="checkbox" {{in_array("CUSTOMER", json_decode($user->roles)) ? "checked" : ""}} name="roles[]" id="CUSTOMER" value="CUSTOMER">
+        <input type="checkbox"  name="roles[]" id="CUSTOMER" value="CUSTOMER" {{in_array("CUSTOMER", json_decode($user->roles)) ? "checked" : ""}}>
         <label for="CUSTOMER">Customer</label>
         <label for="CUSTOMER">Customer</label>
         <br>
