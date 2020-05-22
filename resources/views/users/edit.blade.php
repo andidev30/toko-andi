@@ -37,7 +37,6 @@
         <label for="STAFF">Staff</label>
         <input type="checkbox"  name="roles[]" id="CUSTOMER" value="CUSTOMER" {{in_array("CUSTOMER", json_decode($user->roles)) ? "checked" : ""}}>
         <label for="CUSTOMER">Customer</label>
-        <label for="CUSTOMER">Customer</label>
         <br>
         <br>
         <label for="phone">Phone number</label>
